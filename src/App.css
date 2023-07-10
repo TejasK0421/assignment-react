@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.header{
+  background-color: orange;
+  height: 100px;
+}
+
+.searchBox{
+float: left;
+  padding: 30px;
+  width: 50%;
+  /* padding-left: 250px; */
+
+}
+.paddingLeft{
+  padding-left: 20px;
+}
+.searchBox input{
+width: 100%;
+  height: 30px;
+  border: 1px solid;
+  padding-left: 10px;
+}
+.inputBoxText{
+  padding-top: 20px;
+  /* height: 27px;
+  width: 121px; */
+}
+.inputBoxText input{
+  height: 27px;
+    width: 278px;
+}
+.todoButton{
+  margin-left: 20px;
+  height: 27px;
+  width: 121px;
+
+}
+.product-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-item{
+  border: solid 1px #ccc;
+    margin: 20px;
+    padding: 20px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
